@@ -1,0 +1,14 @@
+cat << 'EOF' > .gitignore
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+*.swp
+
+*.env
+*.local.yaml
+*.bak
+EOF
